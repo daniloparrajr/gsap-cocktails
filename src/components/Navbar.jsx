@@ -38,7 +38,7 @@ function Navbar() {
 
         <ul>
           {navLinks.map(({id, title}) => (
-            <li>
+            <li key={id}>
               <a href={`#${id}`}>
                 {title}
               </a>
