@@ -22,10 +22,10 @@ function About() {
     })
       .from('.top-grid div, .bottom-grid div', {
         opacity: 0,
-        duration: 1,
+        duration: 0.600,
         ease: 'power1.inOut',
-        stagger: 0.04,
-      }, '-=0.5');
+        stagger: 0.03,
+      }, '-=0.7');
   });
 
   return (
